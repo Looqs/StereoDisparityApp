@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS\Desktop\StereoDisparityApp\build\CMakeFiles\b42e723a2ec80f4c86019fab4311e434\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F1AA9595-0BE2-3E08-9D83-017141AC5CF8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

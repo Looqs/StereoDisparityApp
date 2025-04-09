@@ -1,0 +1,22 @@
+^C:\USERS\ASUS\DESKTOP\STEREODISPARITYAPP\BUILD\CMAKEFILES\F4035733C8EA2990C05CEC1156225B16\AUTOUIC_(CONFIG).STAMP.RULE
+setlocal
+cd C:\Users\ASUS\Desktop\StereoDisparityApp\build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ASUS\DESKTOP\STEREODISPARITYAPP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ASUS/Desktop/StereoDisparityApp -BC:/Users/ASUS/Desktop/StereoDisparityApp/build --check-stamp-file C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

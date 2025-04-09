@@ -1,0 +1,542 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework i├ğin MSBuild s├╝r├╝m 17.11.9+a69bbaaf5
+      Olu┼şturma ba┼şlat─▒ld─▒: 9.04.2025 11:24:05.
+      
+      1 d├╝─ş├╝m├╝nde "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" projesi (varsay─▒lan hedefler).
+      PrepareForBuild:
+        "Debug\\" dizini olu┼şturuluyor.
+        Yap─▒land─▒r─▒lm─▒┼ş ├ğ─▒k─▒┼ş etkinle┼ştirildi. Derleyici tan─▒lamas─▒n─▒n bi├ğimlendirmesi hata hiyerar┼şisini yans─▒t─▒r. Daha fazla ayr─▒nt─▒ i├ğin bkz. https://aka.ms/cpp/structured-output.
+        "Debug\\CompilerIdC.tlog\\" dizini olu┼şturuluyor.
+      InitializeBuildStatus:
+        "AlwaysCreate" belirtildi─şi i├ğin "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" olu┼şturuluyor.
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ├Â─şesine eri┼şiliyor.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" dosyas─▒ siliniyor.
+        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate" ├Â─şesine eri┼şiliyor.
+      "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj" Projesini Olu┼şturma ─░┼şlemi Tamamland─▒ (varsay─▒lan hedefler).
+      
+      Olu┼şturma ba┼şar─▒l─▒ oldu.
+          0 Uyar─▒
+          0 Hata
+      
+      Ge├ğen S├╝re 00:00:00.78
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/3.31.6/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      .NET Framework i├ğin MSBuild s├╝r├╝m 17.11.9+a69bbaaf5
+      Olu┼şturma ba┼şlat─▒ld─▒: 9.04.2025 11:24:06.
+      
+      1 d├╝─ş├╝m├╝nde "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" projesi (varsay─▒lan hedefler).
+      PrepareForBuild:
+        "Debug\\" dizini olu┼şturuluyor.
+        Yap─▒land─▒r─▒lm─▒┼ş ├ğ─▒k─▒┼ş etkinle┼ştirildi. Derleyici tan─▒lamas─▒n─▒n bi├ğimlendirmesi hata hiyerar┼şisini yans─▒t─▒r. Daha fazla ayr─▒nt─▒ i├ğin bkz. https://aka.ms/cpp/structured-output.
+        "Debug\\CompilerIdCXX.tlog\\" dizini olu┼şturuluyor.
+      InitializeBuildStatus:
+        "AlwaysCreate" belirtildi─şi i├ğin "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" olu┼şturuluyor.
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ├Â─şesine eri┼şiliyor.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" dosyas─▒ siliniyor.
+        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate" ├Â─şesine eri┼şiliyor.
+      "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\3.31.6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" Projesini Olu┼şturma ─░┼şlemi Tamamland─▒ (varsay─▒lan hedefler).
+      
+      Olu┼şturma ba┼şar─▒l─▒ oldu.
+          0 Uyar─▒
+          0 Hata
+      
+      Ge├ğen S├╝re 00:00:00.56
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/3.31.6/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-zt9n2s"
+      binary: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-zt9n2s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-zt9n2s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28437.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework i├ğin MSBuild s├╝r├╝m 17.11.9+a69bbaaf5
+        Olu┼şturma ba┼şlat─▒ld─▒: 9.04.2025 11:24:07.
+        
+        1 d├╝─ş├╝m├╝nde "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt9n2s\\cmTC_28437.vcxproj" projesi (varsay─▒lan hedefler).
+        PrepareForBuild:
+          "cmTC_28437.dir\\Debug\\" dizini olu┼şturuluyor.
+          Yap─▒land─▒r─▒lm─▒┼ş ├ğ─▒k─▒┼ş etkinle┼ştirildi. Derleyici tan─▒lamas─▒n─▒n bi├ğimlendirmesi hata hiyerar┼şisini yans─▒t─▒r. Daha fazla ayr─▒nt─▒ i├ğin bkz. https://aka.ms/cpp/structured-output.
+          "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt9n2s\\Debug\\" dizini olu┼şturuluyor.
+          "cmTC_28437.dir\\Debug\\cmTC_28437.tlog\\" dizini olu┼şturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildi─şi i├ğin "cmTC_28437.dir\\Debug\\cmTC_28437.tlog\\unsuccessfulbuild" olu┼şturuluyor.
+          "cmTC_28437.dir\\Debug\\cmTC_28437.tlog\\unsuccessfulbuild" ├Â─şesine eri┼şiliyor.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28437.dir\\Debug\\\\" /Fd"cmTC_28437.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          x64 i├ğin Microsoft (R) C/C++ ─░yile┼ştirmeli Derleyicisi S├╝r├╝m 19.41.34123
+          Telif Hakk─▒ (C) Microsoft Corporation. T├╝m haklar─▒ sakl─▒d─▒r.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28437.dir\\Debug\\\\" /Fd"cmTC_28437.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt9n2s\\Debug\\cmTC_28437.exe" /INCREMENTAL /ILK:"cmTC_28437.dir\\Debug\\cmTC_28437.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-zt9n2s/Debug/cmTC_28437.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-zt9n2s/Debug/cmTC_28437.lib" /MACHINE:X64  /machine:x64 cmTC_28437.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_28437.vcxproj -> C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt9n2s\\Debug\\cmTC_28437.exe
+        FinalizeBuildStatus:
+          "cmTC_28437.dir\\Debug\\cmTC_28437.tlog\\unsuccessfulbuild" dosyas─▒ siliniyor.
+          "cmTC_28437.dir\\Debug\\cmTC_28437.tlog\\cmTC_28437.lastbuildstate" ├Â─şesine eri┼şiliyor.
+        "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt9n2s\\cmTC_28437.vcxproj" Projesini Olu┼şturma ─░┼şlemi Tamamland─▒ (varsay─▒lan hedefler).
+        
+        Olu┼şturma ba┼şar─▒l─▒ oldu.
+            0 Uyar─▒
+            0 Hata
+        
+        Ge├ğen S├╝re 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34123.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-hq2fz9"
+      binary: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-hq2fz9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-hq2fz9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_56ad6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework i├ğin MSBuild s├╝r├╝m 17.11.9+a69bbaaf5
+        Olu┼şturma ba┼şlat─▒ld─▒: 9.04.2025 11:24:08.
+        
+        1 d├╝─ş├╝m├╝nde "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hq2fz9\\cmTC_56ad6.vcxproj" projesi (varsay─▒lan hedefler).
+        PrepareForBuild:
+          "cmTC_56ad6.dir\\Debug\\" dizini olu┼şturuluyor.
+          Yap─▒land─▒r─▒lm─▒┼ş ├ğ─▒k─▒┼ş etkinle┼ştirildi. Derleyici tan─▒lamas─▒n─▒n bi├ğimlendirmesi hata hiyerar┼şisini yans─▒t─▒r. Daha fazla ayr─▒nt─▒ i├ğin bkz. https://aka.ms/cpp/structured-output.
+          "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hq2fz9\\Debug\\" dizini olu┼şturuluyor.
+          "cmTC_56ad6.dir\\Debug\\cmTC_56ad6.tlog\\" dizini olu┼şturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildi─şi i├ğin "cmTC_56ad6.dir\\Debug\\cmTC_56ad6.tlog\\unsuccessfulbuild" olu┼şturuluyor.
+          "cmTC_56ad6.dir\\Debug\\cmTC_56ad6.tlog\\unsuccessfulbuild" ├Â─şesine eri┼şiliyor.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_56ad6.dir\\Debug\\\\" /Fd"cmTC_56ad6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          x64 i├ğin Microsoft (R) C/C++ ─░yile┼ştirmeli Derleyicisi S├╝r├╝m 19.41.34123
+          Telif Hakk─▒ (C) Microsoft Corporation. T├╝m haklar─▒ sakl─▒d─▒r.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_56ad6.dir\\Debug\\\\" /Fd"cmTC_56ad6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hq2fz9\\Debug\\cmTC_56ad6.exe" /INCREMENTAL /ILK:"cmTC_56ad6.dir\\Debug\\cmTC_56ad6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-hq2fz9/Debug/cmTC_56ad6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-hq2fz9/Debug/cmTC_56ad6.lib" /MACHINE:X64  /machine:x64 cmTC_56ad6.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_56ad6.vcxproj -> C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hq2fz9\\Debug\\cmTC_56ad6.exe
+        FinalizeBuildStatus:
+          "cmTC_56ad6.dir\\Debug\\cmTC_56ad6.tlog\\unsuccessfulbuild" dosyas─▒ siliniyor.
+          "cmTC_56ad6.dir\\Debug\\cmTC_56ad6.tlog\\cmTC_56ad6.lastbuildstate" ├Â─şesine eri┼şiliyor.
+        "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hq2fz9\\cmTC_56ad6.vcxproj" Projesini Olu┼şturma ─░┼şlemi Tamamland─▒ (varsay─▒lan hedefler).
+        
+        Olu┼şturma ba┼şar─▒l─▒ oldu.
+            0 Uyar─▒
+            0 Hata
+        
+        Ge├ğen S├╝re 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34123.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:145 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-3gc5b6"
+      binary: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-3gc5b6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-3gc5b6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0b227.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework i├ğin MSBuild s├╝r├╝m 17.11.9+a69bbaaf5
+        Olu┼şturma ba┼şlat─▒ld─▒: 9.04.2025 11:24:09.
+        
+        1 d├╝─ş├╝m├╝nde "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gc5b6\\cmTC_0b227.vcxproj" projesi (varsay─▒lan hedefler).
+        PrepareForBuild:
+          "cmTC_0b227.dir\\Debug\\" dizini olu┼şturuluyor.
+          Yap─▒land─▒r─▒lm─▒┼ş ├ğ─▒k─▒┼ş etkinle┼ştirildi. Derleyici tan─▒lamas─▒n─▒n bi├ğimlendirmesi hata hiyerar┼şisini yans─▒t─▒r. Daha fazla ayr─▒nt─▒ i├ğin bkz. https://aka.ms/cpp/structured-output.
+          "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gc5b6\\Debug\\" dizini olu┼şturuluyor.
+          "cmTC_0b227.dir\\Debug\\cmTC_0b227.tlog\\" dizini olu┼şturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildi─şi i├ğin "cmTC_0b227.dir\\Debug\\cmTC_0b227.tlog\\unsuccessfulbuild" olu┼şturuluyor.
+          "cmTC_0b227.dir\\Debug\\cmTC_0b227.tlog\\unsuccessfulbuild" ├Â─şesine eri┼şiliyor.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b227.dir\\Debug\\\\" /Fd"cmTC_0b227.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gc5b6\\src.c"
+          x64 i├ğin Microsoft (R) C/C++ ─░yile┼ştirmeli Derleyicisi S├╝r├╝m 19.41.34123
+          Telif Hakk─▒ (C) Microsoft Corporation. T├╝m haklar─▒ sakl─▒d─▒r.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b227.dir\\Debug\\\\" /Fd"cmTC_0b227.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gc5b6\\src.c"
+          src.c
+        C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gc5b6\\src.c(1,10): error C1083: i├ğerme dosyas─▒ a├ğ─▒lam─▒yor: 'pthread.h': No such file or directory [C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gc5b6\\cmTC_0b227.vcxproj]
+        "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gc5b6\\cmTC_0b227.vcxproj" Projesini Olu┼şturma ─░┼şlemi Tamamland─▒ (varsay─▒lan hedefler) -- BA┼ŞARISIZ OLDU.
+        
+        Olu┼şturma BA┼ŞARISIZ OLDU.
+        
+        "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gc5b6\\cmTC_0b227.vcxproj" (varsay─▒lan hedef) (1) ->
+        (ClCompile hedefi) -> 
+          C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gc5b6\\src.c(1,10): error C1083: i├ğerme dosyas─▒ a├ğ─▒lam─▒yor: 'pthread.h': No such file or directory [C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3gc5b6\\cmTC_0b227.vcxproj]
+        
+            0 Uyar─▒
+            1 Hata
+        
+        Ge├ğen S├╝re 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:145 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-pwshuz"
+      binary: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-pwshuz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-pwshuz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0fa68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework i├ğin MSBuild s├╝r├╝m 17.11.9+a69bbaaf5
+        Olu┼şturma ba┼şlat─▒ld─▒: 9.04.2025 11:24:09.
+        
+        1 d├╝─ş├╝m├╝nde "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwshuz\\cmTC_0fa68.vcxproj" projesi (varsay─▒lan hedefler).
+        PrepareForBuild:
+          "cmTC_0fa68.dir\\Debug\\" dizini olu┼şturuluyor.
+          Yap─▒land─▒r─▒lm─▒┼ş ├ğ─▒k─▒┼ş etkinle┼ştirildi. Derleyici tan─▒lamas─▒n─▒n bi├ğimlendirmesi hata hiyerar┼şisini yans─▒t─▒r. Daha fazla ayr─▒nt─▒ i├ğin bkz. https://aka.ms/cpp/structured-output.
+          "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwshuz\\Debug\\" dizini olu┼şturuluyor.
+          "cmTC_0fa68.dir\\Debug\\cmTC_0fa68.tlog\\" dizini olu┼şturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildi─şi i├ğin "cmTC_0fa68.dir\\Debug\\cmTC_0fa68.tlog\\unsuccessfulbuild" olu┼şturuluyor.
+          "cmTC_0fa68.dir\\Debug\\cmTC_0fa68.tlog\\unsuccessfulbuild" ├Â─şesine eri┼şiliyor.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0fa68.dir\\Debug\\\\" /Fd"cmTC_0fa68.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwshuz\\CheckFunctionExists.c"
+          x64 i├ğin Microsoft (R) C/C++ ─░yile┼ştirmeli Derleyicisi S├╝r├╝m 19.41.34123
+          Telif Hakk─▒ (C) Microsoft Corporation. T├╝m haklar─▒ sakl─▒d─▒r.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0fa68.dir\\Debug\\\\" /Fd"cmTC_0fa68.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwshuz\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwshuz\\Debug\\cmTC_0fa68.exe" /INCREMENTAL /ILK:"cmTC_0fa68.dir\\Debug\\cmTC_0fa68.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-pwshuz/Debug/cmTC_0fa68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-pwshuz/Debug/cmTC_0fa68.lib" /MACHINE:X64  /machine:x64 cmTC_0fa68.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthreads.lib' dosyas─▒ a├ğ─▒lam─▒yor [C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwshuz\\cmTC_0fa68.vcxproj]
+        "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwshuz\\cmTC_0fa68.vcxproj" Projesini Olu┼şturma ─░┼şlemi Tamamland─▒ (varsay─▒lan hedefler) -- BA┼ŞARISIZ OLDU.
+        
+        Olu┼şturma BA┼ŞARISIZ OLDU.
+        
+        "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwshuz\\cmTC_0fa68.vcxproj" (varsay─▒lan hedef) (1) ->
+        (Link hedefi) -> 
+          LINK : fatal error LNK1104: 'pthreads.lib' dosyas─▒ a├ğ─▒lam─▒yor [C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pwshuz\\cmTC_0fa68.vcxproj]
+        
+            0 Uyar─▒
+            1 Hata
+        
+        Ge├ğen S├╝re 00:00:00.44
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake:34 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:145 (include)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-b5mnsp"
+      binary: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-b5mnsp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-b5mnsp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dd39c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework i├ğin MSBuild s├╝r├╝m 17.11.9+a69bbaaf5
+        Olu┼şturma ba┼şlat─▒ld─▒: 9.04.2025 11:24:10.
+        
+        1 d├╝─ş├╝m├╝nde "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5mnsp\\cmTC_dd39c.vcxproj" projesi (varsay─▒lan hedefler).
+        PrepareForBuild:
+          "cmTC_dd39c.dir\\Debug\\" dizini olu┼şturuluyor.
+          Yap─▒land─▒r─▒lm─▒┼ş ├ğ─▒k─▒┼ş etkinle┼ştirildi. Derleyici tan─▒lamas─▒n─▒n bi├ğimlendirmesi hata hiyerar┼şisini yans─▒t─▒r. Daha fazla ayr─▒nt─▒ i├ğin bkz. https://aka.ms/cpp/structured-output.
+          "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5mnsp\\Debug\\" dizini olu┼şturuluyor.
+          "cmTC_dd39c.dir\\Debug\\cmTC_dd39c.tlog\\" dizini olu┼şturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildi─şi i├ğin "cmTC_dd39c.dir\\Debug\\cmTC_dd39c.tlog\\unsuccessfulbuild" olu┼şturuluyor.
+          "cmTC_dd39c.dir\\Debug\\cmTC_dd39c.tlog\\unsuccessfulbuild" ├Â─şesine eri┼şiliyor.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd39c.dir\\Debug\\\\" /Fd"cmTC_dd39c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5mnsp\\CheckFunctionExists.c"
+          x64 i├ğin Microsoft (R) C/C++ ─░yile┼ştirmeli Derleyicisi S├╝r├╝m 19.41.34123
+          Telif Hakk─▒ (C) Microsoft Corporation. T├╝m haklar─▒ sakl─▒d─▒r.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd39c.dir\\Debug\\\\" /Fd"cmTC_dd39c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5mnsp\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5mnsp\\Debug\\cmTC_dd39c.exe" /INCREMENTAL /ILK:"cmTC_dd39c.dir\\Debug\\cmTC_dd39c.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-b5mnsp/Debug/cmTC_dd39c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-b5mnsp/Debug/cmTC_dd39c.lib" /MACHINE:X64  /machine:x64 cmTC_dd39c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 'pthread.lib' dosyas─▒ a├ğ─▒lam─▒yor [C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5mnsp\\cmTC_dd39c.vcxproj]
+        "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5mnsp\\cmTC_dd39c.vcxproj" Projesini Olu┼şturma ─░┼şlemi Tamamland─▒ (varsay─▒lan hedefler) -- BA┼ŞARISIZ OLDU.
+        
+        Olu┼şturma BA┼ŞARISIZ OLDU.
+        
+        "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5mnsp\\cmTC_dd39c.vcxproj" (varsay─▒lan hedef) (1) ->
+        (Link hedefi) -> 
+          LINK : fatal error LNK1104: 'pthread.lib' dosyas─▒ a├ğ─▒lam─▒yor [C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b5mnsp\\cmTC_dd39c.vcxproj]
+        
+            0 Uyar─▒
+            1 Hata
+        
+        Ge├ğen S├╝re 00:00:00.36
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:35 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:145 (find_dependency)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:45 (_qt_internal_find_qt_dependencies)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake:190 (find_package)"
+      - "CMakeLists.txt:9 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-34m19l"
+      binary: "C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-34m19l"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6;C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.8.2/msvc2022_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-34m19l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5775e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        .NET Framework i├ğin MSBuild s├╝r├╝m 17.11.9+a69bbaaf5
+        Olu┼şturma ba┼şlat─▒ld─▒: 9.04.2025 11:24:10.
+        
+        1 d├╝─ş├╝m├╝nde "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34m19l\\cmTC_5775e.vcxproj" projesi (varsay─▒lan hedefler).
+        PrepareForBuild:
+          "cmTC_5775e.dir\\Debug\\" dizini olu┼şturuluyor.
+          Yap─▒land─▒r─▒lm─▒┼ş ├ğ─▒k─▒┼ş etkinle┼ştirildi. Derleyici tan─▒lamas─▒n─▒n bi├ğimlendirmesi hata hiyerar┼şisini yans─▒t─▒r. Daha fazla ayr─▒nt─▒ i├ğin bkz. https://aka.ms/cpp/structured-output.
+          "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34m19l\\Debug\\" dizini olu┼şturuluyor.
+          "cmTC_5775e.dir\\Debug\\cmTC_5775e.tlog\\" dizini olu┼şturuluyor.
+        InitializeBuildStatus:
+          "AlwaysCreate" belirtildi─şi i├ğin "cmTC_5775e.dir\\Debug\\cmTC_5775e.tlog\\unsuccessfulbuild" olu┼şturuluyor.
+          "cmTC_5775e.dir\\Debug\\cmTC_5775e.tlog\\unsuccessfulbuild" ├Â─şesine eri┼şiliyor.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_5775e.dir\\Debug\\\\" /Fd"cmTC_5775e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34m19l\\src.cxx"
+          x64 i├ğin Microsoft (R) C/C++ ─░yile┼ştirmeli Derleyicisi S├╝r├╝m 19.41.34123
+          Telif Hakk─▒ (C) Microsoft Corporation. T├╝m haklar─▒ sakl─▒d─▒r.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_5775e.dir\\Debug\\\\" /Fd"cmTC_5775e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34m19l\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34m19l\\Debug\\cmTC_5775e.exe" /INCREMENTAL /ILK:"cmTC_5775e.dir\\Debug\\cmTC_5775e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-34m19l/Debug/cmTC_5775e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/CMakeScratch/TryCompile-34m19l/Debug/cmTC_5775e.lib" /MACHINE:X64  /machine:x64 cmTC_5775e.dir\\Debug\\src.obj
+          cmTC_5775e.vcxproj -> C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34m19l\\Debug\\cmTC_5775e.exe
+        FinalizeBuildStatus:
+          "cmTC_5775e.dir\\Debug\\cmTC_5775e.tlog\\unsuccessfulbuild" dosyas─▒ siliniyor.
+          "cmTC_5775e.dir\\Debug\\cmTC_5775e.tlog\\cmTC_5775e.lastbuildstate" ├Â─şesine eri┼şiliyor.
+        "C:\\Users\\ASUS\\Desktop\\StereoDisparityApp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-34m19l\\cmTC_5775e.vcxproj" Projesini Olu┼şturma ─░┼şlemi Tamamland─▒ (varsay─▒lan hedefler).
+        
+        Olu┼şturma ba┼şar─▒l─▒ oldu.
+            0 Uyar─▒
+            0 Hata
+        
+        Ge├ğen S├╝re 00:00:00.53
+        
+      exitCode: 0
+...

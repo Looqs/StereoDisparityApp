@@ -1,0 +1,16 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build\\debug",
+      "out\\build\\release"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\build",
+    "\\build\\CMakeFiles",
+    "\\build\\CMakeFiles\\3.31.6"
+  ],
+  "SelectedNode": "\\imageprocessor.cpp",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,3 @@
+C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/StereoDisparityApp.dir
+C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ASUS/Desktop/StereoDisparityApp/build/CMakeFiles/ZERO_CHECK.dir
