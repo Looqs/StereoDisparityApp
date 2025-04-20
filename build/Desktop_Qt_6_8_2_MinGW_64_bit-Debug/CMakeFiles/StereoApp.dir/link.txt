@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\StereoApp.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\StereoApp.dir/objects.a @CMakeFiles\StereoApp.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\StereoApp.dir/objects.a -Wl,--no-whole-archive -o StereoApp.exe -Wl,--out-implib,libStereoApp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\StereoApp.dir\linkLibs.rsp

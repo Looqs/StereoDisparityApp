@@ -1,0 +1,8 @@
+C:/Users/Ahmet/Desktop/StereoApp/out/build/debug/CMakeFiles/StereoApp.dir
+C:/Users/Ahmet/Desktop/StereoApp/out/build/debug/CMakeFiles/edit_cache.dir
+C:/Users/Ahmet/Desktop/StereoApp/out/build/debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Ahmet/Desktop/StereoApp/out/build/debug/CMakeFiles/list_install_components.dir
+C:/Users/Ahmet/Desktop/StereoApp/out/build/debug/CMakeFiles/install.dir
+C:/Users/Ahmet/Desktop/StereoApp/out/build/debug/CMakeFiles/install/local.dir
+C:/Users/Ahmet/Desktop/StereoApp/out/build/debug/CMakeFiles/StereoApp_autogen_timestamp_deps.dir
+C:/Users/Ahmet/Desktop/StereoApp/out/build/debug/CMakeFiles/StereoApp_autogen.dir

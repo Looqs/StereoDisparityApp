@@ -1,0 +1,13 @@
+# Visual Studio
+.vs/
+*.ipch
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+Debug/
+Release/
+*.obj
+*.exe
